@@ -21,7 +21,7 @@ body {
     padding: 50px;
     border-radius: 50%;
     border: 8px solid #39458C;
-    background-color: #495BC3;
+    background-color: #007bff;
     color: #ffffff;
     font-weight: bold;
     font-size: 20px;
@@ -33,9 +33,9 @@ body {
 }
 
 input[type='text']{
-    background-color: #3D4153;
+    background-color: #ffffff;
     padding: 10px 0px;
-    color: #ffffff;
+    color: #050505;
     width: 80%;
     margin: 0 auto;
     border: 2px solid #858299;
@@ -43,8 +43,8 @@ input[type='text']{
     padding: 10px;
 }
 input[type='text']:focus {
-    background-color: #3D4153;
-    color: #fff;
+    background-color:  #ffffff;
+    color:#050505;
     font-size: 20px;
 }
 .numbers {
@@ -84,7 +84,7 @@ color: #E0B612;
     margin-top: 20px;
     padding: 10px 120px;
     border-radius: 5px;
-    background: #495BC3;
+    background: #007bff;
     color: #fff;
 }
 .notify {
@@ -95,6 +95,7 @@ color: #E0B612;
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+    display: none;
 }
 .notify-section{
     width: 35%;
